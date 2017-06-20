@@ -1,0 +1,37 @@
+@import "../assets/icomoon/style.css";
+#hero-greeting {
+  display: flex;
+  background: #81c1dc;
+  min-height:10vh;
+  background-size: cover;
+  background-image:url('../assets/css/eating-pizza.jpg');
+  height:70vh;
+}
+
+h2 {
+  font-weight:900;
+  font-size:4.0rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav > * {
+  align-self: flex-start;
+  width:70px;
+  height:70px;
+  background-color: white;
+  border: none;
+  margin:0 5px 0 0;
+  font-size:50px;
+}
+
+a.logo {
+  background: white;
+}
+a.logo img {
+  width: 80%;
+  margin: 10%;
+}
